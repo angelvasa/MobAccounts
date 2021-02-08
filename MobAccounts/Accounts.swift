@@ -33,7 +33,13 @@ class AccountsRouter: Routable {
     func resove(forEvent event: Events) {
         switch event {
         case .accountTapped( _):
+            goToAccountDetails()
             break
         }
+    }
+    
+    private func goToAccountDetails() {
+        let detailView = AccountsDetailView(nibName: "AccountsDetailView", bundle: Bundle(for: Self.self))
+        self.navigationController.pushViewController(detailView, animated: true)
     }
 }

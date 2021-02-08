@@ -22,6 +22,8 @@
 		AB8BB31D25D1192200BF8580 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB31925D1192200BF8580 /* Accounts.swift */; };
 		AB8BB31E25D1192200BF8580 /* AccountsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB31B25D1192200BF8580 /* AccountsView.xib */; };
 		AB8BB31F25D1192200BF8580 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB31C25D1192200BF8580 /* AccountsView.swift */; };
+		AB8BB33425D134E200BF8580 /* AccountsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB33225D134E200BF8580 /* AccountsDetailView.swift */; };
+		AB8BB33525D134E200BF8580 /* AccountsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB33325D134E200BF8580 /* AccountsDetailView.xib */; };
 		F4E6E29052A2B7913F8DBD29 /* Pods_MobAccounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FEA5E4802D54D9DDED4513 /* Pods_MobAccounts.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,8 @@
 		AB8BB31925D1192200BF8580 /* Accounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
 		AB8BB31B25D1192200BF8580 /* AccountsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountsView.xib; sourceTree = "<group>"; };
 		AB8BB31C25D1192200BF8580 /* AccountsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		AB8BB33225D134E200BF8580 /* AccountsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsDetailView.swift; sourceTree = "<group>"; };
+		AB8BB33325D134E200BF8580 /* AccountsDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsDetailView.xib; sourceTree = "<group>"; };
 		AD508ECC51EB544706737045 /* Pods-MobAccounts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobAccounts.debug.xcconfig"; path = "Target Support Files/Pods-MobAccounts/Pods-MobAccounts.debug.xcconfig"; sourceTree = "<group>"; };
 		B72EDB39BBAC2D77A55C6497 /* Pods-MobAccounts-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobAccounts-Demo.release.xcconfig"; path = "Target Support Files/Pods-MobAccounts-Demo/Pods-MobAccounts-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DA8F5B92F07780DAC63EDD7D /* Pods-MobAccounts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobAccounts.release.xcconfig"; path = "Target Support Files/Pods-MobAccounts/Pods-MobAccounts.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 			children = (
 				AB8BB31B25D1192200BF8580 /* AccountsView.xib */,
 				AB8BB31C25D1192200BF8580 /* AccountsView.swift */,
+				AB8BB33225D134E200BF8580 /* AccountsDetailView.swift */,
+				AB8BB33325D134E200BF8580 /* AccountsDetailView.xib */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -315,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8BB31E25D1192200BF8580 /* AccountsView.xib in Resources */,
+				AB8BB33525D134E200BF8580 /* AccountsDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8BB33425D134E200BF8580 /* AccountsDetailView.swift in Sources */,
 				AB8BB31F25D1192200BF8580 /* AccountsView.swift in Sources */,
 				AB8BB31D25D1192200BF8580 /* Accounts.swift in Sources */,
 			);
