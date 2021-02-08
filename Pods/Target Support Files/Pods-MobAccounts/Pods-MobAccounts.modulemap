@@ -1,0 +1,6 @@
+framework module Pods_MobAccounts {
+  umbrella header "Pods-MobAccounts-umbrella.h"
+
+  export *
+  module * { export * }
+}
